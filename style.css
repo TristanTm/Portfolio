@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.TP{
+    color: #89ABE3FF;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+li, a ,button{
+    font-weight: 500;
+    font-size: 16px;
+    color: #89ABE3FF;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 10%;
+    border-bottom: solid 1px #89ABE3FF;
+}
+
+.navigatie-links{
+    list-style: none;
+}
+
+.navigatie-links, li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navigatie-links, li, a{
+    transition: all 0.3s ease 0s;
+}
+
+.navigatie-links, li, a:hover{
+    color: crimson;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(137, 171, 277, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
+}
+
+button:hover{
+    background-color: rgba(137, 171, 277, 0.5);
+    color: black;
+}
+
+.fotoV{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.Hobby{
+    margin: 0px 80px;
+}
+
+.Hobby, .Opl, .Mij {
+    display: inline-block;
+    width: 450px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+    border: white 2px solid;
+    color: rgb(0, 0, 0);
+    padding: 20px 30px;
+  }
+
+.Mij{
+    margin-left: 75px; 
+}
+
+.Info{
+    background-color: rgba(137, 171, 277, 0.45);
+    padding: 50px 0px;
+}
+
+
+.Info1{
+    margin-bottom: 10px;
+}
+
+
+
+.machine, #machine {
+  height: 40px;
+  white-space: nowrap;
+  overflow: hidden; 
+  font-family: 'Montserrat', sans-serif; 
+  font-size: 28px;
+  color: rgba(0, 0, 0, 0.7);
+  position: relative;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  background-color: transparent;
+}
+
+.machiner, #machiner {
+  border-bottom: solid 3px rgba(0,255,0,.75);
+  position: absolute;
+  right: -7px;
+  width: 20px;
+}
+
+.machine, #machine {
+  animation: animated-text 4s steps(30,end) 1s 1 normal both;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+.machiner, #machiner {
+   animation: animated-cursor 60ms steps(30,end) infinite;
+}
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 320px;}
+}
+
+@keyframes animated-cursor{
+  from{border-bottom-color: rgba(0,255,0,.75);}
+  to{border-bottom-color: transparent;}
+}
+
+
+
