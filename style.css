@@ -1,64 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 *{
-    scroll-behavior: smooth;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(255, 255, 255);
-    font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+  font-family: 'Montserrat', sans-serif;
 }
 
 .TP{
-    color: #89ABE3FF;
-    cursor: pointer;
-    margin-right: auto;
+  color: #89ABE3FF;
+  cursor: pointer;
+  margin-right: auto;
 }
 
+
 li, a ,button{
-    font-weight: 500;
-    font-size: 16px;
-    color: #89ABE3FF;
-    text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  color: #89ABE3FF;
+  text-decoration: none;
 }
 
 header{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 15px 10%;
-    border-bottom: solid 1px #89ABE3FF;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 15px 10%;
+  border-bottom: solid 1px #89ABE3FF;
 }
 
 .navigatie-links{
-    list-style: none;
+  list-style: none;
 }
 
 .navigatie-links, li{
-    display: inline-block;
-    padding: 0px 20px;
+  display: inline-block;
+  padding: 0px 20px;
 }
 
 .navigatie-links, li, a{
-    transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 .navigatie-links, li, a:hover{
-    color: crimson;
+  color: crimson;
 }
 
 button{
-    padding: 9px 25px;
-    background-color: rgba(137, 171, 277, 1);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-    color: white;
+  padding: 9px 25px;
+  background-color: rgba(137, 171, 277, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: white;
 }
 
 button:hover{
-    background-color: rgba(137, 171, 277, 0.5);
-    color: black;
+  background-color: rgba(137, 171, 277, 0.5);
+  color: black;
 }
 
 .fotoV{
@@ -69,30 +70,22 @@ button:hover{
 }
 
 
-
 .Hobby, .Opl, .Mij {
-    display: inline-block;
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    text-align: center;
-    border: white 2px solid;
-    color: rgb(0, 0, 0);
-    padding: 20px 30px;
-    margin: 70px 80px;
-  }
-
-
-.Info{
-    background-color: rgba(137, 171, 277, 0.45);
-    display: flex;
-    justify-content: flex-start;
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  text-align: center;
+  border: white 2px solid;
+  color: rgb(0, 0, 0);
+  padding: 20px 30px;
+  margin: 70px 80px;
 }
 
-
-
-
-
-
+.Info{
+  background-color: rgba(137, 171, 277, 0.45);
+  display: flex;
+  justify-content: flex-start;
+}
 
 .machine, #machine {
   height: 40px;
